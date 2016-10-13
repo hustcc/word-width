@@ -1,6 +1,6 @@
 # word-width
 
-> **word-width** is simple browserjs / nodejs library for calculate ascii length of unicode string in the terminal / console.
+> **word-width** is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console.
 
 Inspired by [jquast/wcwidth](https://github.com/jquast/wcwidth) which is written by Python.
 
