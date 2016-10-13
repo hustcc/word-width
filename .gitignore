@@ -1,0 +1,7 @@
+.project
+.settings
+
+node_modules/*
+
+
+updateUnicode.py

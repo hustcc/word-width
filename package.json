@@ -1,0 +1,44 @@
+{
+  "name": "word-width",
+  "officialName": "word-width",
+  "version": "1.0.0",
+  "summary": "word-width is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console.",
+  "description": "word-width is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console.",
+  "author": {
+    "name": "hustcc",
+    "url": "http://git.hust.cc/word-width"
+  },
+  "license": "MIT",
+  "keywords": [
+    "word-width",
+    "ascii",
+    "ascii-word",
+    "ascii width",
+    "unicode",
+    "unicode width",
+    "terminal",
+    "console"
+  ],
+  "main": "dist/word-width.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hustcc/word-width"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcc/word-width/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.2",
+    "gulp-rename": "^1.2.2",
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "lint": "jshint src/word-width.js",
+    "test": "npm run lint && node tests/test.js",
+    "build": "gulp mini && npm run test"
+  },
+  "dependencies": {
+  }
+}

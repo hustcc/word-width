@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>word-width is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console.</title>
+  <meta name="keywords" content="wword-width, ascii, ascii-word, ascii width, unicode, unicode width, terminal, console" />
+  <meta name="description" content="word-width is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console." />
+  <style type="text/css">
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  pre {
+    background-color: #f6dcd7;
+    padding: 10px 15px;
+  }
+  pre.strong {
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <h1> word-width </h1>
+  <p>
+    Project <a href="https://github.com/hustcc/word-width">word-width</a> is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console.
+  </p>
+
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- sorry for ad -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-7292810486004926"
+       data-ad-slot="7806394673"
+       data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <h2> Install </h2>
+  <pre class="strong">
+npm install word-width </pre>
+  <p> Then import it. </p>
+  <pre>
+// import library use script tag.
+&lt;script type="text/javascript" src="dist/word-width.min.js"&gt;&lt;/script&gt;
+
+// or ES6 style.
+var WordWidth = require('word-width');</pre>
+
+  <h3>Usage</h3>
+  <pre>
+WordWidth('Hello Word Width!');               //17
+  
+// unicode
+t.equal(WordWidth('コンニチハ, セカイ!');           //19
+t.equal(WordWidth('越过长城，走向世界');          //18
+  </pre>
+  <hr />
+
+  <p>
+    The code of word-width hosted on Github, click <a href="https://github.com/hustcc/word-width">here</a>. Welcome to issue or pull request.
+  </p>
+  <script type="text/javascript" src="dist/word-width.min.js"></script>
+  <script type="text/javascript">
+    function $_(id) {
+      return document.getElementById(id);
+    }
+    function format() {
+      try {
+        $_('result').innerHTML = word-width($_('number').value, $_('fixed').value, $_('formatter').value);
+      }
+      catch(e) {
+        alert('input is not valid.')
+      }
+    }
+  </script>
+</body>
+</html>
