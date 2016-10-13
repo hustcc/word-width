@@ -37,11 +37,11 @@ There is only one API named `WordWidth(word)`.
 
 ```js
 // english
-WordWidth('Hello Word Width!');               //17
+WordWidth('Hello Word Width!');       //17
   
 // unicode
-t.equal(WordWidth('コンニチハ, セカイ!');      //19
-t.equal(WordWidth('越过长城，走向世界');       //18
+WordWidth('コンニチハ, セカイ!');      //19
+WordWidth('越过长城，走向世界');       //18
 ```
 
 
