@@ -1,7 +1,6 @@
 .project
 .settings
-
 node_modules/*
-
-
-updateUnicode.py
+.idea
+coverage
+.coveralls.yml

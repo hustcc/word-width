@@ -1,15 +1,15 @@
-# word-width
+# [word-width](http://git.hust.cc/word-width/)
 
 > **word-width** is simple browserjs / nodejs library for calculate ascii length of unicode string in terminal / console.
 
 Inspired by [jquast/wcwidth](https://github.com/jquast/wcwidth) which is written by Python.
 
-[![Build Status](https://travis-ci.org/hustcc/word-width.svg?branch=master)](https://travis-ci.org/hustcc/word-width) [![npm](https://img.shields.io/npm/v/word-width.svg?style=flat-square)](https://www.npmjs.com/package/word-width) [![npm](https://img.shields.io/npm/dt/word-width.svg?style=flat-square)](https://www.npmjs.com/package/word-width) [![npm](https://img.shields.io/npm/l/word-width.svg?style=flat-square)](https://www.npmjs.com/package/word-width)
+[![Build Status](https://travis-ci.org/hustcc/word-width.svg?branch=master)](https://travis-ci.org/hustcc/word-width) [![Coverage Status](https://coveralls.io/repos/github/hustcc/word-width/badge.svg?branch=master)](https://coveralls.io/github/hustcc/word-width?branch=master) [![npm](https://img.shields.io/npm/v/word-width.svg)](https://www.npmjs.com/package/word-width) [![npm](https://img.shields.io/npm/dt/word-width.svg)](https://www.npmjs.com/package/word-width) [![npm](https://img.shields.io/npm/l/word-width.svg)](https://www.npmjs.com/package/word-width)
 
 
 # 1. Install
 
-> **npm install word-width**
+> **npm install --save word-width**
 
 
 # 2. Import It
